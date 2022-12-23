@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.TeremBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin: 130px 0px;
+}
+
+.TeremBox .TeremCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+}
+
+.TeremBox .TeremCim p{
+    font-size: 42px;
+    text-decoration: underline;
+}
+
+.TeremBox .TeremLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.TeremBox .TeremLeiras p{
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.TeremBox .CuccokKeret{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    padding: 20px 0px;
+}
+
+.TeremBox .CuccokKeret .CuccEgyed{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 28vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 0px 30px;
+    
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccKep{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 28vw;
+    height: auto;
+    margin-top: 0px;
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccKep img{
+    width: 28vw; 
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccReszletek{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccReszletekCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: #b6b6b6;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccReszletekCim p {
+    font-size: 20px;
+    padding: 20px 20px;
+    padding-right: 60px;
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccReszletekCim i {
+    position: absolute;
+    right: 20px;
+    font-size: 32px;
+    height: 40px;
+    width: 40px;
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccBejegyzes-Szoveg{
+    background-color: #b6b6b6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    margin-bottom: 15px;
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccBejegyzes-Szoveg.AktivCucc {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccBejegyzes-Szoveg p {
+    padding: 5px 20px;
+    font-size: 18px;
+}
+
+
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .TeremBox{
+        margin: 100px 0px 50px 0px;
+    }
+    
+    .TeremBox .TeremCim{
+        width: 90vw;
+    }
+    
+    .TeremBox .TeremCim p{
+        font-size: 32px;
+        text-decoration: underline;
+    }
+    
+    .TeremBox .TeremLeiras{
+        width: 90vw;
+    }
+    
+    .TeremBox .TeremLeiras p{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    .TeremBox .CuccokKeret{
+        width: 90vw;
+        flex-direction: column;
+        padding: 0px;
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed{
+        width: 90vw;
+        padding: 10px 0px;
+        
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccKep{
+        width: 90vw;
+        margin-top: 0px;
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccKep img{
+        width: 90vw;   
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccReszletek{
+        width: 90vw;
+    }
+    
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccReszletekCim p {
+        font-size: 20px;
+        padding: 20px 20px;
+        padding-right: 60px;
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccReszletekCim i {
+        position: absolute;
+        right: 0px;
+        font-size: 20px;
+        height: 20px;
+        width: 40px;
+ 
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccBejegyzes-Szoveg p {
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+
+}
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .TeremBox{
+        margin: 100px 0px 50px 0px;
+    }
+    
+    .TeremBox .TeremCim{
+        width: 90vw;
+    }
+    
+    .TeremBox .TeremCim p{
+        font-size: 32px;
+        text-decoration: underline;
+    }
+    
+    .TeremBox .TeremLeiras{
+        width: 90vw;
+    }
+    
+    .TeremBox .TeremLeiras p{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    
+    .TeremBox .CuccokKeret{
+        width: 90vw;
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed{
+        width: 44vw;
+        padding: 0px 10px;
+        
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccKep{
+        width: 44vw;
+        margin-top: 0px;
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccKep img{
+        width: 44vw;   
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccReszletek{
+        width: 44vw;
+    }
+    
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccReszletekCim p {
+        font-size: 20px;
+        padding: 20px 20px;
+        padding-right: 60px;
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccReszletekCim i {
+        position: absolute;
+        right: 0px;
+        
+        font-size: 20px;
+        height: 20px;
+        width: 40px;
+    }
+    
+    .TeremBox .CuccokKeret .CuccEgyed .CuccReszletek .CuccBejegyzes-Szoveg p {
+        padding: 5px 20px;
+        font-size: 20px;
+    }
+
+}

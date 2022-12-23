@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.RendDoboz{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.RendDoboz p{
+    font-size: 28px;
+}
+
+.RendDoboz .RendCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: auto;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.RendDoboz .RendCim p{
+    font-size: 38px;
+}
+
+.RendDoboz .RendLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.RendDoboz .RendLeiras p{
+    font-size: 32px;
+}
+
+.RendDoboz .RendLeiras .LeirasCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.RendDoboz .RendLeiras .LeirasCim p{
+    font-size: 32px;
+}
+
+.RendDoboz .RendLeiras .LeirasUL{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+}
+
+.RendDoboz .RendLeiras ul{
+    font-size: 25px;
+
+}
+
+.RendDoboz .RendUL{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    margin: 50px 0px;
+}
+
+.RendDoboz .RendUL ul{
+    font-size: 25px;
+    list-style-type:none;
+}
+
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .RendDoboz .RendCim{
+        width: 100vw;
+    }
+
+    .RendDoboz .RendLeiras{
+        width: 100vw;
+        margin-bottom: 10px;
+    }
+
+    .RendDoboz .RendLeiras p{
+        font-size: 28px;
+    }
+
+    .RendDoboz .RendLeiras .LeirasCim{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin-left: 0px;
+    }
+
+    .RendDoboz .RendLeiras .LeirasCim p{
+        font-size: 27px;
+    }
+
+    .RendDoboz .RendLeiras .LeirasUL{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+    }
+
+    .RendDoboz .RendLeiras ul{
+        font-size: 25px;
+
+    }
+
+    .RendDoboz .RendUL{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+        margin: 50px 0px;
+    }
+
+    .RendDoboz .RendUL ul{
+        font-size: 25px;
+        list-style-type:none;
+    }
+
+}
+

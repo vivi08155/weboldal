@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.MerlinBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.MerlinBox p{
+    font-size: 28px;
+}
+
+.MerlinBox .MerlinCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinCim p{
+    font-size: 45px;
+}
+
+.MerlinBox .MerlinLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinLeiras p{
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+.MerlinBox .MerlinLeiras .MerlinLeirasCim{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.MerlinBox .MerlinAr{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinAr p{
+    font-size: 18px;
+}
+
+.MerlinBox .MerlinAr .MerlinArCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinAr .MerlinArCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.MerlinBox .MerlinAr .MerlinArAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinAr .MerlinArAdatok p{
+    font-size: 18px;
+}
+
+.MerlinBox .MerlinAr .MerlinArAdatok .MerlinArAdatokP{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #80471C;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.MerlinBox .MerlinMeret{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinMeret p{
+    font-size: 18px;
+}
+
+.MerlinBox .MerlinMeret .MerlinMeretCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinMeret .MerlinMeretCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.MerlinBox .MerlinMeret .MerlinMeretAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinMeret .MerlinMeretAdatok ul{
+    font-size: 18px;
+    line-height: 180%;
+    list-style-type: none;
+}
+
+.MerlinBox .MerlinGaleria{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinGaleria p{
+    font-size: 18px;
+}
+
+.MerlinBox .MerlinGaleria .MerlinGaleriaCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinGaleria .MerlinGaleriaCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.MerlinBox .MerlinGaleria .MerlinGaleriaKepek{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MerlinBox .MerlinGaleria .MerlinGaleriaKepek a{
+    width: 200px;
+    padding: 15px 0px;
+}
+
+.MerlinBox .MerlinGaleria .MerlinGaleriaKepek a img{
+    width: 150px;
+    border:5px solid #FA8128;
+}
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .MerlinBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .MerlinBox .MerlinCim{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinLeiras{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinAr{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinAr .MerlinArCim{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinAr .MerlinArAdatok{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinMeret{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinMeret .MerlinMeretCim{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinMeret .MerlinMeretAdatok{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinGaleria{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinGaleria .MerlinGaleriaCim{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinGaleria .MerlinGaleriaKepek{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinGaleria .MerlinGaleriaKepek a{
+        width: 150px;
+    }
+
+    .MerlinBox .MerlinGaleria .MerlinGaleriaKepek a img{
+        width: 120px;
+    }
+
+}
+
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .MerlinBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .MerlinBox .MerlinCim{
+        width: 100vw;
+    }
+
+    .MerlinBox .MerlinLeiras{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinAr{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinAr .MerlinArCim{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinAr .MerlinArAdatok{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinMeret{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinMeret .MerlinMeretCim{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinMeret .MerlinMeretAdatok{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinGaleria{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinGaleria .MerlinGaleriaCim{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinGaleria .MerlinGaleriaKepek{
+        width: 90vw;
+    }
+
+    .MerlinBox .MerlinGaleria .MerlinGaleriaKepek a{
+        width: 150px;
+    }
+
+    .MerlinBox .MerlinGaleria .MerlinGaleriaKepek a img{
+        width: 120px;
+    }
+
+}

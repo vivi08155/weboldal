@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.BohocBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.BohocBox p{
+    font-size: 28px;
+}
+
+.BohocBox .BohocCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocCim p{
+    font-size: 45px;
+}
+
+.BohocBox .BohocLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocLeiras p{
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+.BohocBox .BohocLeiras .BohocLeirasCim{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.BohocBox .BohocAr{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocAr p{
+    font-size: 18px;
+}
+
+.BohocBox .BohocAr .BohocArCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocAr .BohocArCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.BohocBox .BohocAr .BohocArAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocAr .BohocArAdatok p{
+    font-size: 18px;
+}
+
+.BohocBox .BohocAr .BohocArAdatok .BohocArAdatokP{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #80471C;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.BohocBox .BohocMeret{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocMeret p{
+    font-size: 18px;
+}
+
+.BohocBox .BohocMeret .BohocMeretCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocMeret .BohocMeretCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.BohocBox .BohocMeret .BohocMeretAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocMeret .BohocMeretAdatok ul{
+    font-size: 18px;
+    line-height: 180%;
+    list-style-type: none;
+}
+
+.BohocBox .BohocGaleria{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocGaleria p{
+    font-size: 18px;
+}
+
+.BohocBox .BohocGaleria .BohocGaleriaCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocGaleria .BohocGaleriaCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.BohocBox .BohocGaleria .BohocGaleriaKepek{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.BohocBox .BohocGaleria .BohocGaleriaKepek a{
+    width: 200px;
+    padding: 15px 0px;
+}
+
+.BohocBox .BohocGaleria .BohocGaleriaKepek a img{
+    width: 150px;
+    border:5px solid #FA8128;
+}
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .BohocBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .BohocBox .BohocCim{
+        width: 100vw;
+    }
+
+    .BohocBox .BohocLeiras{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocAr{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocAr .BohocArCim{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocAr .BohocArAdatok{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocMeret{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocMeret .BohocMeretCim{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocMeret .BohocMeretAdatok{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocGaleria{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocGaleria .BohocGaleriaCim{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocGaleria .BohocGaleriaKepek{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocGaleria .BohocGaleriaKepek a{
+        width: 150px;
+    }
+
+    .BohocBox .BohocGaleria .BohocGaleriaKepek a img{
+        width: 120px;
+    }
+
+}
+
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .BohocBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .BohocBox .BohocCim{
+        width: 100vw;
+    }
+
+    .BohocBox .BohocLeiras{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocAr{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocAr .BohocArCim{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocAr .BohocArAdatok{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocMeret{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocMeret .BohocMeretCim{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocMeret .BohocMeretAdatok{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocGaleria{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocGaleria .BohocGaleriaCim{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocGaleria .BohocGaleriaKepek{
+        width: 90vw;
+    }
+
+    .BohocBox .BohocGaleria .BohocGaleriaKepek a{
+        width: 150px;
+    }
+
+    .BohocBox .BohocGaleria .BohocGaleriaKepek a img{
+        width: 120px;
+    }
+
+}

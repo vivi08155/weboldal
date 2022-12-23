@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.VonatBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.VonatBox p{
+    font-size: 28px;
+}
+
+.VonatBox .VonatCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatCim p{
+    font-size: 45px;
+}
+
+.VonatBox .VonatLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatLeiras p{
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+.VonatBox .VonatLeiras .VonatLeirasCim{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.VonatBox .VonatAr{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatAr p{
+    font-size: 18px;
+}
+
+.VonatBox .VonatAr .VonatArCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatAr .VonatArCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.VonatBox .VonatAr .VonatArAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatAr .VonatArAdatok p{
+    font-size: 18px;
+}
+
+.VonatBox .VonatAr .VonatArAdatok .VonatArAdatokP{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #80471C;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.VonatBox .VonatMeret{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatMeret p{
+    font-size: 18px;
+}
+
+.VonatBox .VonatMeret .VonatMeretCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatMeret .VonatMeretCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.VonatBox .VonatMeret .VonatMeretAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatMeret .VonatMeretAdatok ul{
+    font-size: 18px;
+    line-height: 180%;
+    list-style-type: none;
+}
+
+.VonatBox .VonatGaleria{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatGaleria p{
+    font-size: 18px;
+}
+
+.VonatBox .VonatGaleria .VonatGaleriaCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatGaleria .VonatGaleriaCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.VonatBox .VonatGaleria .VonatGaleriaKepek{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.VonatBox .VonatGaleria .VonatGaleriaKepek a{
+    width: 200px;
+    padding: 15px 0px;
+}
+
+.VonatBox .VonatGaleria .VonatGaleriaKepek a img{
+    width: 150px;
+    border:5px solid #FA8128;
+}
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .VonatBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .VonatBox .VonatCim{
+        width: 100vw;
+    }
+
+    .VonatBox .VonatLeiras{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatAr{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatAr .VonatArCim{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatAr .VonatArAdatok{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatMeret{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatMeret .VonatMeretCim{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatMeret .VonatMeretAdatok{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatGaleria{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatGaleria .VonatGaleriaCim{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatGaleria .VonatGaleriaKepek{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatGaleria .VonatGaleriaKepek a{
+        width: 150px;
+    }
+
+    .VonatBox .VonatGaleria .VonatGaleriaKepek a img{
+        width: 120px;
+    }
+
+}
+
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .VonatBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .VonatBox .VonatCim{
+        width: 100vw;
+    }
+
+    .VonatBox .VonatLeiras{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatAr{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatAr .VonatArCim{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatAr .VonatArAdatok{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatMeret{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatMeret .VonatMeretCim{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatMeret .VonatMeretAdatok{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatGaleria{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatGaleria .VonatGaleriaCim{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatGaleria .VonatGaleriaKepek{
+        width: 90vw;
+    }
+
+    .VonatBox .VonatGaleria .VonatGaleriaKepek a{
+        width: 150px;
+    }
+
+    .VonatBox .VonatGaleria .VonatGaleriaKepek a img{
+        width: 120px;
+    }
+
+}

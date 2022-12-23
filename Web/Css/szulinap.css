@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.SzuliDoboz{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.SzuliDoboz .SzuliCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    text-decoration: underline;
+}
+
+.SzuliDoboz .SzuliCim p{
+    font-size: 38px;
+}
+
+.SzuliDoboz .SzulAlcim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.SzuliDoboz .SzulAlcim p{
+    font-size: 18px;
+}
+
+.SzuliDoboz .SzuliLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 50px;
+}
+
+.SzuliDoboz .SzuliLeiras .Cim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    text-decoration: underline;
+}
+
+.SzuliDoboz .SzuliLeiras .Cim p{
+    font-size: 32px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL p{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .ElsoReszlet{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .ElsoReszlet p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet p{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    text-decoration: underline;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletCim p{
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 32px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom p{
+    margin-left: 30px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .Idopontok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .Idopontok li{
+    margin-top: 20px;
+}
+
+#EgyedulalloBekezdes{
+    margin-left: 30px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .MitTartalmaz{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    text-decoration: underline;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .MitTartalmaz p{
+    margin-top: 20px;
+    margin-left: 0px;
+    font-size: 32px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .SzulinapiCsomag{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .SzulinapiCsomag p{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    /*margin-left: 30px;*/
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek table{
+    
+}
+
+.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek td{
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #FA8128;
+    padding: 8px 10px;
+    text-align: center;
+    
+}
+
+
+
+/*.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek{*/
+/*    position: relative;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: flex-start;*/
+/*    width: 60vw;*/
+/*    height: auto;*/
+/*    font-size: 20px;*/
+/*    margin-left: 50px;*/
+/*}*/
+
+/*.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek li{*/
+/*    margin-top: 16px;*/
+/*}*/
+
+
+
+
+/*-----------------------------------------------mobil mod------------------------------------------------------------*/
+@media only screen and (max-width: 499px) {
+    .SzuliDoboz .SzulAlcim{
+        width: 90vw;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzulAlcim p{
+        font-size: 14px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras{
+        width: 90vw;
+        height: auto;
+        margin-top: 50px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .Cim{
+        width: 90vw;
+        height: auto;
+        text-decoration: underline;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .Cim p{
+        font-size: 28px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL{
+        width: 90vw;
+        height: auto;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL p{
+        font-size: 22px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .ElsoReszlet{
+        width: 90vw;
+        height: auto;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .ElsoReszlet p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet{
+        width: 90vw;
+        height: auto;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletCim{
+        width: 90vw;
+        height: auto;
+        text-decoration: underline;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletCim p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 28px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom{
+        width: 90vw;
+        height: auto;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom p{
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .Idopontok{
+        width: 90vw;
+        height: auto;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .Idopontok li{
+        margin-top: 14px;
+    }
+    
+    #EgyedulalloBekezdes{
+        margin-left: 0px;
+        width: 90vw;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .MitTartalmaz{
+        width: 90vw;
+        height: auto;
+        text-decoration: underline;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .MitTartalmaz p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 28px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .SzulinapiCsomag{
+        width: 90vw;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .SzulinapiCsomag p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+    
+    /*.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek table{*/
+    /*    position: relative;*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*    justify-content: center;*/
+    /*    align-items: flex-start;*/
+    /*    width: 90vw;*/
+    /*    height: auto;*/
+    /*    margin-left: 0px;*/
+    /*    margin:0px;*/
+    /*    padding:0px;*/
+        
+    /*}*/
+    
+    /*.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek tr{*/
+    /*    width:90vw;*/
+    /*}*/
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek td{
+        font-size: 16px;
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: #FA8128;
+        padding: 8px 5px;
+        text-align: center;
+        
+    }
+    
+    /*.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek{*/
+    /*    width: 80vw;*/
+    /*    height: auto;*/
+    /*    font-size: 20px;*/
+    /*    margin-left: 20px;*/
+    /*}*/
+    
+    /*.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek li{*/
+    /*    margin-top: 8px;*/
+    /*}*/
+    
+}
+
+
+/*----------------------------------------------------tablet mod-----------------------------------------------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .SzuliDoboz .SzulAlcim{
+        width: 80vw;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzulAlcim p{
+        font-size: 14px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras{
+        width: 100vw;
+        height: auto;
+        margin-top: 50px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .Cim{
+        width: 80vw;
+        height: auto;
+        text-decoration: underline;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .Cim p{
+        font-size: 28px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL{
+        width: 80vw;
+        height: auto;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL p{
+        font-size: 22px;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .ElsoReszlet{
+        width: 80vw;
+        height: auto;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .ElsoReszlet p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet{
+        width: 80vw;
+        height: auto;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletCim{
+        width: 80vw;
+        height: auto;
+        text-decoration: underline;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletCim p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 28px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom{
+        width: 80vw;
+        height: auto;
+        font-size: 20px;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom p{
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .Idopontok{
+        width: 80vw;
+        height: auto;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .Idopontok li{
+        margin-top: 14px;
+    }
+    
+    #EgyedulalloBekezdes{
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .MitTartalmaz{
+        width: 90vw;
+        height: auto;
+        text-decoration: underline;
+        margin-left: 0px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .MitTartalmaz p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 28px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .SzulinapiCsomag{
+        width: 80vw;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .SzulinapiCsomag p{
+        margin-top: 20px;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80vw;
+        height: auto;
+        /*margin-left: 30px;*/
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+    
+    .SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek td{
+        font-size: 18px;
+        border: 2px solid;
+        border-radius: 10px;
+        border-color: #FA8128;
+        padding: 8px 10px;
+        text-align: center;
+        
+    }
+
+    
+    /*.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek{*/
+    /*    width: 80vw;*/
+    /*    height: auto;*/
+    /*    font-size: 20px;*/
+    /*    margin-left: 20px;*/
+    /*}*/
+    
+    /*.SzuliDoboz .SzuliLeiras .SzuliUL .MasodikReszlet .MasodikReszletTartalom .TartalomReszletek li{*/
+    /*    margin-top: 8px;*/
+    /*}*/
+
+}

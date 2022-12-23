@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.TuraBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.TuraBox p{
+    font-size: 28px;
+}
+
+.TuraBox .TuraCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    text-decoration: underline;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TuraBox .TuraCim p{
+    font-size: 32px;
+}
+
+.TuraBox .TuraLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.TuraBox .TuraLeiras p{
+    font-size: 18px;
+}
+
+.TuraBox .TuraKovetkezo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.TuraBox .TuraKovetkezo p{
+    font-size: 18px;
+    margin-bottom:20px;
+}
+
+.TuraBox .TuraKovetkezo li{
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.TuraBox .TuraKovetkezo .TuraKepekUj{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TuraBox .TuraKovetkezo .TuraKepekUj a{
+    width: 200px;
+    padding: 15px 0px;
+}
+
+.TuraBox .TuraKovetkezo .TuraKepekUj a img{
+    width: 150px;
+    border:5px solid #FA8128;
+}
+
+.TuraBox .TuraKovetkezo .TuraKovetkezoCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TuraBox .TuraKovetkezo .TuraKovetkezoCim{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.TuraBox .TuraKorabbiak{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.TuraBox .TuraKorabbiak p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 20px;
+    
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    overflow: hidden;
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Cim {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    background-color: #b6b6b6;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Cim p {
+    font-size: 22px;
+    padding: 20px 20px;
+    padding-right: 60px;
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Cim i {
+    position: absolute;
+    right: 20px;
+    font-size: 22px;
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg {
+    background-color: #b6b6b6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    margin-bottom: 15px;
+}
+
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg.TuraAktiv {
+    height: auto;
+    opacity: 1;
+    visibility: visible;
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg p {
+    padding: 5px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek a{
+    width: 200px;
+    padding: 15px 0px;
+}
+
+.TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek a img{
+    width: 150px;
+    border:5px solid #FA8128;
+}
+
+
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .TuraBox{
+        margin-top: 100px;
+    }
+
+    .TuraBox p{
+        font-size: 28px;
+    }
+
+    .TuraBox .TuraCim{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraLeiras{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKovetkezo{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKovetkezo .TuraKovetkezoCim{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKorabbiak{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes {
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Cim p {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek a{
+        width: 150px;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek a img{
+        width: 120px;
+    }
+    
+    .TuraBox .TuraKovetkezo .TuraKepekUj{
+    width: 90vw;
+}
+
+.TuraBox .TuraKovetkezo .TuraKepekUj a{
+    width: 150px;
+}
+
+.TuraBox .TuraKovetkezo .TuraKepekUj a img{
+    width: 120px;
+}
+
+
+}
+
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .TuraBox{
+        margin-top: 100px;
+    }
+
+    .TuraBox p{
+        font-size: 28px;
+    }
+
+    .TuraBox .TuraCim{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraLeiras{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKovetkezo{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKovetkezo .TuraKovetkezoCim{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKorabbiak{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes {
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Cim p {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek{
+        width: 90vw;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek a{
+        width: 150px;
+    }
+
+    .TuraBox .TuraKorabbiak .TuraBejegyzes .TuraBejegyzes-Szoveg .TuraKepek a img{
+        width: 120px;
+    }
+    
+    .TuraBox .TuraKovetkezo .TuraKepekUj{
+    width: 90vw;
+}
+
+.TuraBox .TuraKovetkezo .TuraKepekUj a{
+    width: 150px;
+}
+
+.TuraBox .TuraKovetkezo .TuraKepekUj a img{
+    width: 120px;
+}
+}

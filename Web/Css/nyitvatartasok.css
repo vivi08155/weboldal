@@ -1,0 +1,1149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.NyitvatartasDoboz {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.NyitvatartasDoboz .NyitvaCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    text-decoration: underline;
+}
+
+.NyitvatartasDoboz .NyitvaCim p{
+    font-size: 38px;
+}
+
+.NyitvatartasDoboz .NyitvaAlcim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 20px;
+}
+
+.NyitvatartasDoboz .NyitvaAlcim p{
+    font-size: 18px;
+}
+
+.NyitvatartasDoboz .EvHonap {
+    margin-top: 20px;
+	text-align: center;
+	color: #FA8128;
+}
+
+.NyitvatartasDoboz .Jelzesek{
+    display:none;
+}
+
+.NyitvatartasDoboz #HelpABenaknak2{
+        display:none;
+    }
+
+.Egysorba{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 100vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.Nyilakkozti{
+    padding: 0px 30px;
+    color: #bbb;
+}
+
+.mySlides {
+    display:none;
+}
+
+.honapok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: auto;
+}
+
+.calendar-wrap{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: auto;
+    margin-top: 20px;
+}
+
+.calendar {
+	width: 100%;	
+}
+
+/*#calendar a {*/
+/*	color: #FA8128;*/
+/*	text-decoration: none;*/
+/*}*/
+
+.calendar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.calendar li {
+	display: block;
+	float: left;
+	width:14.342%;
+	padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+	margin-right: -1px;
+	margin-bottom: -1px;
+}
+
+.calendar ul.weekdays {
+	height: 40px;
+	background: #FA8128;
+}
+
+.calendar ul.weekdays-mobil{
+    /*visibility: hidden;*/
+    display: none;
+}
+
+.calendar ul.weekdays li {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none !important;
+	padding: 10px 6px;
+	color: #fff;
+	font-size: 13px;
+}
+
+.calendar .days li {
+	height: 220px;
+}
+
+.calendar .days li:hover {
+	background: #d3d3d3;
+}
+
+.calendar .date {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 4px;
+	background: #333;
+	color: #fff;
+	width: 20px;
+	border-radius: 50%;
+	float: right;
+}
+
+/*lila színű*/
+.calendar .event-jatszo {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	clear: both;
+	display: block;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #bf7fbf;
+	border: 1px solid #8c198c;
+	color: black;
+	text-decoration: none;
+}
+
+/*kék színű*/
+.calendar .event-szuli {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	clear: both;
+	display: block;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #9fc5e8;
+	border: 1px solid #3d85c6;
+	color: black;
+	text-decoration: none;
+}
+
+/*piros színű*/
+.calendar .event-zarva {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	clear: both;
+	display: block;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	line-height: 22px;
+	background: #f44336;
+	border: 3px dotted #cc0000;
+	color: black;
+	height:120px;
+}
+
+/*zöld színű*/
+.calendar .event-esemeny {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	clear: both;
+	display: block;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #66b266;
+	border: 1px solid #329932;
+	color: black;
+	text-decoration: none;
+}
+
+
+.calendar .event-zarva p{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top:5px;
+}
+
+#gepen{
+    
+}
+
+#telefonon{
+    display: none;
+}
+
+.calendar .event-cim {
+    display:block;
+	color: black;
+	margin: 3px 0 7px 0;
+	text-decoration: none;	
+}
+
+.calendar .event-ido {
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	clear: both;
+	display: block;
+    
+}
+
+.calendar .other-month {
+	/*background: #f5f5f5;*/
+	background: #bcbcbc;
+	color: #666;
+}
+
+
+
+
+
+/*----------------------------------------------mobil mod--------------------------------------------------------*/
+@media only screen and (max-width: 499px) {
+    
+    .NyitvatartasDoboz .NyitvaAlcim{
+        width: 80vw;
+        margin-top: 30px;
+    }
+    
+    .NyitvatartasDoboz .NyitvaAlcim p{
+        font-size: 14px;
+    }
+    
+    .NyitvatartasDoboz .EvHonap {
+        margin-top: 30px;
+    }
+    
+    .NyitvatartasDoboz .Jelzesek{
+        display:block;
+        font-size: 12px;
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80vw;
+        height: auto;
+        margin-top:20px;
+        
+    }
+    
+    .NyitvatartasDoboz .Jelzesek p{
+        display:block;
+        font-size: 12px;
+        /*margin-top: 0px;*/
+    }
+    
+    .NyitvatartasDoboz .Jelzesek #HelpABenaknak{
+        margin-top: 15px;
+    }
+    
+    .NyitvatartasDoboz #HelpABenaknak2{
+        display:block;
+        font-size: 12px;
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80vw;
+        height: auto;
+        margin-top:20px;
+        margin-top: 15px;
+        display:block;
+    }
+    
+    .NyitvatartasDoboz .Jelzesek img{
+        width: 12px;
+    }
+    
+    .Egysorba{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap : wrap;
+        width: 100vw;
+        height: auto;
+        margin-top: 0px;
+        padding: 10px 0px;
+    }
+    
+    .mySlides {
+        display:none;
+    }
+    
+    .honapok{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: auto;
+    }
+    
+    .calendar-wrap{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .calendar {
+    	width: 100%;	
+    }
+    
+    /*#calendar a {*/
+    /*	color: #FA8128;*/
+    /*	text-decoration: none;*/
+    /*}*/
+    
+    .calendar ul {
+    	list-style: none;
+    	padding: 0;
+    	margin: 0;
+    	width: 100%;
+    }
+    
+    .calendar li {
+    	display: block;
+    	float: left;
+    	width:14.6%;
+    	padding: 5px;
+    	box-sizing:border-box;
+    	border: 1px solid #ccc;
+    	margin-right: -1px;
+    	margin-bottom: -1px;
+    }
+    
+    .calendar ul.weekdays {
+        /*visibility: hidden;*/
+        display:none;
+    }
+    .calendar ul.weekdays-mobil {
+    	height: 24px;
+    	background: #FA8128;
+    	/*visibility: visible;*/
+    	display: block;
+    }
+    
+    .calendar ul.weekdays-mobil li {
+    	text-align: center;
+    	text-transform: uppercase;
+    	line-height: 20px;
+    	border: none !important;
+    	padding: 00px 0px;
+    	color: #fff;
+    	font-size: 13px;
+    }
+    
+    .calendar .days li {
+    	height: 180px;
+    }
+    
+    .calendar .days li:hover {
+    	background: #d3d3d3;
+    }
+    
+    .calendar .date {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	text-align: center;
+    	margin-bottom: 5px;
+    	padding: 4px;
+    	background: #333;
+    	color: #fff;
+    	width: 20px;
+    	border-radius: 50%;
+    	float: right;
+    }
+    
+    /*lila színű*/
+    .calendar .event-jatszo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+    	font-size: 8px;
+    	border-radius: 4px;
+    	padding: 0px;
+    	margin-top: 10px;
+    	margin-bottom: 5px;
+    	line-height: 14px;
+    	background: #bf7fbf;
+	    border: 1px solid #8c198c;
+    	color: black;
+    	text-decoration: none;
+    	width:100%;
+    }
+    
+    /*kék színű*/
+    .calendar .event-szuli {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+    	font-size: 8px;
+    	border-radius: 4px;
+    	padding: 0px;
+    	margin-top: 10px;
+    	margin-bottom: 5px;
+    	line-height: 14px;
+    	background: #9fc5e8;
+	    border: 1px solid #3d85c6;
+    	color: black;
+    	text-decoration: none;
+    }
+    
+        /*zöld színű*/
+    .calendar .event-esemeny {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+    	font-size: 8px;
+    	border-radius: 4px;
+    	padding: 0px;
+    	margin-top: 10px;
+    	margin-bottom: 5px;
+    	line-height: 14px;
+    	background: #66b266;
+	    border: 1px solid #329932;
+    	color: black;
+    	text-decoration: none;
+    	width:100%;
+    }
+    
+    /*piros színű*/
+    .calendar .event-zarva {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+    	font-size: 14px;
+    	border-radius: 4px;
+    	padding: 5px;
+    	margin-top: 0px;
+    	margin-bottom: 5px;
+    	line-height: 14px;
+    	background: #f44336;
+	    border: 3px dotted #cc0000;
+    	color: black;
+    	text-decoration: none;
+    	height:100px;
+    }
+    
+
+    
+    .calendar .event-zarva p{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-top:0px;
+        writing-mode: vertical-lr;
+        text-orientation: upright;
+    }
+    
+	#gepen{
+        display:none;
+    }
+
+    #telefonon{
+        display: block;
+    }
+
+    
+    .calendar .event-cim {
+    	color: #666;
+    	margin: 3px 0 7px 0;
+    	text-decoration: none;	
+    	display:none;
+    }
+    
+    .calendar .other-month {
+    	/*background: #f5f5f5;*/
+    	background: #bcbcbc;
+    	color: #666;
+    }
+
+
+	#calendar .weekdays, #calendar .other-month {
+		display: none;
+	}
+
+	#calendar li {
+		height: auto !important;
+		border: 1px solid #ededed;
+		width: 100%;
+		padding: 10px;
+		margin-bottom: -1px;
+	}
+
+	#calendar .date {
+		float: none;
+	}
+	
+
+}
+
+
+
+
+
+/*----------------------------------------------------tablet mod-----------------------------------------------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+
+    .NyitvatartasDoboz {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+    
+    .NyitvatartasDoboz .NyitvaCim{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        text-decoration: underline;
+    }
+    
+    .NyitvatartasDoboz .NyitvaCim p{
+        font-size: 38px;
+    }
+    
+    .NyitvatartasDoboz .NyitvaAlcim{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    
+    .NyitvatartasDoboz .NyitvaAlcim p{
+        font-size: 16px;
+    }
+    
+    .NyitvatartasDoboz .EvHonap {
+        margin-top: 20px;
+    	text-align: center;
+    	color: #FA8128;
+    }
+    
+    .NyitvatartasDoboz .Jelzesek{
+        display:none;
+    }
+    
+    .NyitvatartasDoboz #HelpABenaknak2{
+        display:block;
+        font-size: 12px;
+        margin-top: 20px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 80vw;
+        height: auto;
+        margin-top:20px;
+        margin-top: 15px;
+        display:block;
+    }
+    
+    .Egysorba{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap : wrap;
+        width: 100vw;
+        height: auto;
+        margin-top: 0px;
+        padding: 10px 0px;
+    }
+    
+    .Nyilakkozti{
+        padding: 0px 30px;
+        color: #bbb;
+    }
+    
+    .mySlides {
+        display:none;
+    }
+    
+    .honapok{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: auto;
+    }
+    
+    .calendar-wrap{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 70vw;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    .calendar {
+    	width: 100%;	
+    }
+    
+    /*#calendar a {*/
+    /*	color: #FA8128;*/
+    /*	text-decoration: none;*/
+    /*}*/
+    
+    .calendar ul {
+    	list-style: none;
+    	padding: 0;
+    	margin: 0;
+    	width: 100%;
+    }
+    
+    .calendar li {
+    	display: block;
+    	float: left;
+    	width:14.342%;
+    	padding: 5px;
+    	box-sizing:border-box;
+    	border: 1px solid #ccc;
+    	margin-right: -1px;
+    	margin-bottom: -1px;
+    }
+    
+    .calendar ul.weekdays {
+    	height: 40px;
+    	background: #FA8128;
+    }
+    
+    .calendar ul.weekdays-mobil{
+        /*visibility: hidden;*/
+        display: none;
+    }
+    
+    .calendar ul.weekdays li {
+    	text-align: center;
+    	text-transform: uppercase;
+    	line-height: 20px;
+    	border: none !important;
+    	padding: 10px 6px;
+    	color: #fff;
+    	font-size: 13px;
+    }
+    
+    .calendar .days li {
+    	height: 220px;
+    }
+    
+    .calendar .days li:hover {
+    	background: #d3d3d3;
+    }
+    
+    .calendar .date {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	text-align: center;
+    	margin-bottom: 5px;
+    	padding: 4px;
+    	background: #333;
+    	color: #fff;
+    	width: 20px;
+    	border-radius: 50%;
+    	float: right;
+    }
+    
+    /*lila színű*/
+    .calendar .event-jatszo {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+    	font-size: 12px;
+    	border-radius: 4px;
+    	padding: 2px;
+    	margin-top: 0px;
+    	margin-bottom: 5px;
+    	line-height: 12px;
+    	background: #bf7fbf;
+    	border: 1px solid #8c198c;
+    	color: black;
+    	text-decoration: none;
+    }
+    
+    /*kék színű*/
+    .calendar .event-szuli {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+    	font-size: 12px;
+    	border-radius: 4px;
+    	padding: 2px;
+    	margin-top: 0px;
+    	margin-bottom: 5px;
+    	line-height: 12px;
+    	background: #9fc5e8;
+    	border: 1px solid #3d85c6;
+    	color: black;
+    	text-decoration: none;
+    }
+    
+    /*piros színű*/
+    .calendar .event-zarva {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+    	font-size: 14px;
+    	border-radius: 4px;
+    	padding: 5px;
+    	margin-top: 0px;
+    	margin-bottom: 5px;
+    	line-height: 14px;
+    	background: #f44336;
+    	border: 3px dotted #cc0000;
+    	color: black;
+    	text-decoration: underline;
+    	height:120px;
+    }
+    
+    /*zöld színű*/
+    .calendar .event-esemeny {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+    	font-size: 12px;
+    	border-radius: 4px;
+    	padding: 2px;
+    	margin-top: 0px;
+    	margin-bottom: 5px;
+    	line-height: 12px;
+    	background: #66b266;
+    	border: 1px solid #329932;
+    	color: black;
+    	text-decoration: none;
+    }
+    
+    
+    .calendar .event-zarva p{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-top:50px;
+    }
+    
+    #gepen{
+        display:none;
+    }
+
+    #telefonon{
+        display: block;
+    }
+    
+    .calendar .event-cim {
+        display:block;
+    	color: black;
+    	margin: 3px 0 7px 0;
+    	text-decoration: none;	
+    }
+    
+    .calendar .event-ido {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    	clear: both;
+    	display: block;
+        
+    }
+    
+    .calendar .other-month {
+    	/*background: #f5f5f5;*/
+    	background: #bcbcbc;
+    	color: #666;
+    }
+    
+
+    
+ /*   .NyitvatartasDoboz .NyitvaAlcim p{*/
+ /*       font-size: 18px;*/
+ /*   }*/
+    
+ /*   .NyitvatartasDoboz .EvHonap {*/
+ /*       margin-top: 20px;*/
+ /*   	text-align: center;*/
+ /*   	color: #FA8128;*/
+ /*   }*/
+    
+ /*   .Egysorba{*/
+ /*       position: relative;*/
+ /*       display: flex;*/
+ /*       flex-direction: row;*/
+ /*       justify-content: center;*/
+ /*       align-items: flex-start;*/
+ /*       flex-wrap : wrap;*/
+ /*       width: 100vw;*/
+ /*       height: auto;*/
+ /*       margin-top: 0px;*/
+ /*       padding: 10px 0px;*/
+ /*   }*/
+    
+ /*   .Nyilakkozti{*/
+ /*       padding: 0px 30px;*/
+ /*       color: #bbb;*/
+ /*   }*/
+    
+ /*   .mySlides {*/
+ /*       display:none;*/
+ /*   }*/
+    
+ /*   .honapok{*/
+ /*       position: relative;*/
+ /*       display: flex;*/
+ /*       flex-direction: column;*/
+ /*       justify-content: center;*/
+ /*       align-items: center;*/
+ /*       width: 80vw;*/
+ /*       height: auto;*/
+ /*   }*/
+    
+ /*   .calendar-wrap{*/
+ /*       position: relative;*/
+ /*       display: flex;*/
+ /*       flex-direction: column;*/
+ /*       justify-content: center;*/
+ /*       align-items: center;*/
+ /*       width: 70vw;*/
+ /*       height: auto;*/
+ /*       margin-top: 20px;*/
+ /*   }*/
+    
+ /*   .calendar {*/
+ /*   	width: 100%;	*/
+ /*   }*/
+    
+    /*#calendar a {*/
+    /*	color: #FA8128;*/
+    /*	text-decoration: none;*/
+    /*}*/
+    
+ /*   .calendar ul {*/
+ /*   	list-style: none;*/
+ /*   	padding: 0;*/
+ /*   	margin: 0;*/
+ /*   	width: 100%;*/
+ /*   }*/
+    
+ /*   .calendar li {*/
+ /*   	display: block;*/
+ /*   	float: left;*/
+ /*   	width:14.342%;*/
+ /*   	padding: 5px;*/
+ /*   	box-sizing:border-box;*/
+ /*   	border: 1px solid #ccc;*/
+ /*   	margin-right: -1px;*/
+ /*   	margin-bottom: -1px;*/
+ /*   }*/
+    
+ /*   .calendar ul.weekdays {*/
+ /*   	height: 40px;*/
+ /*   	background: #FA8128;*/
+ /*   }*/
+    
+ /*   .calendar ul.weekdays li {*/
+ /*   	text-align: center;*/
+ /*   	text-transform: uppercase;*/
+ /*   	line-height: 20px;*/
+ /*   	border: none !important;*/
+ /*   	padding: 10px 6px;*/
+ /*   	color: #fff;*/
+ /*   	font-size: 13px;*/
+ /*   }*/
+    
+ /*   .calendar .days li {*/
+ /*   	height: 220px;*/
+ /*   }*/
+    
+ /*   .calendar .days li:hover {*/
+ /*   	background: #d3d3d3;*/
+ /*   }*/
+    
+ /*   .calendar .date {*/
+ /*       position: relative;*/
+ /*       display: flex;*/
+ /*       flex-direction: column;*/
+ /*       justify-content: center;*/
+ /*       align-items: center;*/
+ /*   	text-align: center;*/
+ /*   	margin-bottom: 5px;*/
+ /*   	padding: 4px;*/
+ /*   	background: #333;*/
+ /*   	color: #fff;*/
+ /*   	width: 20px;*/
+ /*   	border-radius: 50%;*/
+ /*   	float: right;*/
+ /*   }*/
+    
+ /*   .calendar .event-jatszo {*/
+ /*       position: relative;*/
+ /*       display: flex;*/
+ /*       flex-direction: column;*/
+ /*       justify-content: center;*/
+ /*       align-items: center;*/
+ /*   	clear: both;*/
+ /*   	display: block;*/
+ /*   	font-size: 13px;*/
+ /*   	border-radius: 4px;*/
+ /*   	padding: 5px;*/
+ /*   	margin-top: 0px;*/
+ /*   	margin-bottom: 5px;*/
+ /*   	line-height: 14px;*/
+ /*   	background: #e4f2f2;*/
+ /*   	border: 1px solid #b5dbdc;*/
+ /*   	color: #009aaf;*/
+ /*   	text-decoration: none;*/
+ /*   }*/
+    
+ /*   .calendar .event-szuli {*/
+ /*       position: relative;*/
+ /*       display: flex;*/
+ /*       flex-direction: column;*/
+ /*       justify-content: center;*/
+ /*       align-items: center;*/
+ /*   	clear: both;*/
+ /*   	display: block;*/
+ /*   	font-size: 13px;*/
+ /*   	border-radius: 4px;*/
+ /*   	padding: 5px;*/
+ /*   	margin-top: 0px;*/
+ /*   	margin-bottom: 5px;*/
+ /*   	line-height: 14px;*/
+ /*   	background: #f9cb9c;*/
+ /*   	border: 1px solid #f6b26b;*/
+ /*   	color: #009aaf;*/
+ /*   	text-decoration: none;*/
+ /*   }*/
+    
+ /*   .calendar .event-cim {*/
+ /*   	color: #666;*/
+ /*   	margin: 3px 0 7px 0;*/
+ /*   	text-decoration: none;	*/
+ /*   }*/
+    
+ /*   .calendar .other-month {*/
+    	/*background: #f5f5f5;*/
+ /*   	background: #bcbcbc;*/
+ /*   	color: #666;*/
+ /*   }*/
+
+
+	/*#calendar .weekdays, #calendar .other-month {*/
+	/*	display: none;*/
+	/*}*/
+
+	/*#calendar li {*/
+	/*	height: auto !important;*/
+	/*	border: 1px solid #ededed;*/
+	/*	width: 100%;*/
+	/*	padding: 10px;*/
+	/*	margin-bottom: -1px;*/
+	/*}*/
+
+	/*#calendar .date {*/
+	/*	float: none;*/
+	/*}*/
+	
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

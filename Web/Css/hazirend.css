@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.HazirendDoboz{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+.HazirendDoboz p{
+    font-size: 28px;
+}
+
+.HazirendDoboz .HazirendCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: auto;
+    margin-bottom: 50px;
+    text-decoration: underline;
+}
+
+.HazirendDoboz .HazirendCim p{
+    font-size: 38px;
+}
+
+.HazirendDoboz .HazorendAlcim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.HazirendDoboz .HazorendAlcim p{
+    font-size: 32px;
+}
+
+.HazirendDoboz .HazirendLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+}
+
+.HazirendDoboz .HazirendLeiras ul{
+    font-size: 27px;
+    list-style-type:upper-roman;
+}
+
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .HazirendDoboz .HazirendCim{
+        width: 100vw;
+    }
+
+    .HazirendDoboz .HazorendAlcim{
+        width: 85vw;
+        margin-bottom: 10px;
+    }
+
+    .HazirendDoboz .HazorendAlcim p{
+        font-size: 28px;
+    }
+
+    .HazirendDoboz .HazirendLeiras{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        margin-left: 50px;
+    }
+
+    .HazirendDoboz .HazirendLeiras ul{
+        font-size: 27px;
+        list-style-type:upper-roman;
+    }
+}

@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.TortaBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.TortaBox p{
+    font-size: 28px;
+}
+
+.TortaBox .TortaCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaCim p{
+    font-size: 45px;
+}
+
+.TortaBox .TortaLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaLeiras p{
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+.TortaBox .TortaLeiras .TortaLeirasCim{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.TortaBox .TortaAr{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaAr p{
+    font-size: 18px;
+}
+
+.TortaBox .TortaAr .TortaArCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaAr .TortaArCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.TortaBox .TortaAr .TortaArAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaAr .TortaArAdatok p{
+    font-size: 18px;
+}
+
+.TortaBox .TortaAr .TortaArAdatok .TortaArAdatokP{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #80471C;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.TortaBox .TortaMeret{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaMeret p{
+    font-size: 18px;
+}
+
+.TortaBox .TortaMeret .TortaMeretCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaMeret .TortaMeretCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.TortaBox .TortaMeret .TortaMeretAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaMeret .TortaMeretAdatok ul{
+    font-size: 18px;
+    line-height: 180%;
+    list-style-type: none;
+}
+
+.TortaBox .TortaGaleria{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaGaleria p{
+    font-size: 18px;
+}
+
+.TortaBox .TortaGaleria .TortaGaleriaCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaGaleria .TortaGaleriaCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.TortaBox .TortaGaleria .TortaGaleriaKepek{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.TortaBox .TortaGaleria .TortaGaleriaKepek a{
+    width: 200px;
+    padding: 15px 0px;
+}
+
+.TortaBox .TortaGaleria .TortaGaleriaKepek a img{
+    width: 150px;
+    border:5px solid #FA8128;
+}
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .TortaBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .TortaBox .TortaCim{
+        width: 100vw;
+    }
+
+    .TortaBox .TortaLeiras{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaAr{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaAr .TortaArCim{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaAr .TortaArAdatok{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaMeret{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaMeret .TortaMeretCim{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaMeret .TortaMeretAdatok{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaGaleria{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaGaleria .TortaGaleriaCim{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaGaleria .TortaGaleriaKepek{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaGaleria .TortaGaleriaKepek a{
+        width: 150px;
+    }
+
+    .TortaBox .TortaGaleria .TortaGaleriaKepek a img{
+        width: 120px;
+    }
+
+}
+
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .TortaBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .TortaBox .TortaCim{
+        width: 100vw;
+    }
+
+    .TortaBox .TortaLeiras{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaAr{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaAr .TortaArCim{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaAr .TortaArAdatok{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaMeret{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaMeret .TortaMeretCim{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaMeret .TortaMeretAdatok{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaGaleria{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaGaleria .TortaGaleriaCim{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaGaleria .TortaGaleriaKepek{
+        width: 90vw;
+    }
+
+    .TortaBox .TortaGaleria .TortaGaleriaKepek a{
+        width: 150px;
+    }
+
+    .TortaBox .TortaGaleria .TortaGaleriaKepek a img{
+        width: 120px;
+    }
+
+}

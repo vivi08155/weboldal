@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.Arlista{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+}
+
+.Arlista p{
+    font-size: 28px;
+}
+
+.Arlista .Arlista-Cim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    background-color: black;
+    margin-top: 50px;
+    padding: 10px 0px;
+}
+
+.Arlista .Arlista-Cim p{
+    color: #dddddd;
+    font-size: 25px;
+}
+
+.Arlista .Arlista-Arak{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    padding: 10px 20px;
+}
+
+.Arlista .Arlista-Arak .Arsor{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 5px 20px;
+
+}
+
+.Arlista .Arlista-Arak .Arsor .Bal{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+    height: auto;
+    font-size: 20px;
+}
+
+.Arlista .Arlista-Arak .Arsor .Jobb {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+}
+
+.Arlista .Arlista-Arak .Arsor .Kulon{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    font-size: 15px;
+    padding-top: 50px;
+}
+
+.Arlista .Kiegeszites{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 50px;
+    padding: 10px 0px;
+}
+
+.Arlista .Kiegeszites .Elso{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+}
+
+.Arlista .Kiegeszites .Elso p{
+    font-size: 25px;
+}
+
+.Arlista .Kiegeszites .Masodik{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+}
+
+.Arlista .Kiegeszites .Masodik p{
+    font-size: 15px;
+}
+
+.Arlista .Kiegeszites .Harmadik{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin: 50px 0px;
+}
+
+.Arlista .Kiegeszites .Harmadik p:first-child{
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.Arlista .Kiegeszites .Harmadik li{
+    font-size: 20px;
+}
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .Arlista{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+
+    .Arlista #Elso{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+
+    .Arlista .Arlista-Cim{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        background-color: black;
+        margin-top: 50px;
+        padding: 10px 0px;
+    }
+
+    .Arlista .Arlista-Cim p{
+        color: #dddddd;
+        font-size: 25px;
+    }
+
+    .Arlista .Arlista-Arak{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+        padding: 10px 0px;
+    }
+
+    .Arlista .Arlista-Arak .Arsor{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 5px 20px;
+
+    }
+
+    .Arlista .Arlista-Arak .Arsor .Bal{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 65%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .Arlista .Arlista-Arak .Arsor .Jobb {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 35%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .Arlista .Kiegeszites{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+        margin-top: 50px;
+        padding: 10px 0px;
+    }
+
+    .Arlista .Kiegeszites .Elso{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+    }
+
+    .Arlista .Kiegeszites .Elso p{
+        font-size: 25px;
+    }
+
+    .Arlista .Kiegeszites .Masodik{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .Arlista .Kiegeszites .Masodik p{
+        font-size: 15px;
+    }
+
+    .Arlista .Kiegeszites .Harmadik{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+        margin: 50px 0px;
+    }
+
+    .Arlista .Kiegeszites .Harmadik p:first-child{
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 30px;
+    }
+
+    .Arlista .Kiegeszites .Harmadik li{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .Arlista{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        margin-top: 100px;
+        flex-wrap: wrap;
+    }
+
+    .Arlista #Elso{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+        flex-wrap: wrap;
+        font-size: 20px;
+    }
+
+    .Arlista .Arlista-Cim{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        background-color: black;
+        margin-top: 50px;
+        padding: 10px 0px;
+    }
+
+    .Arlista .Arlista-Cim p{
+        color: #dddddd;
+        font-size: 25px;
+    }
+
+    .Arlista .Arlista-Arak{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+        padding: 10px 0px;
+    }
+
+    .Arlista .Arlista-Arak .Arsor{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 5px 20px;
+
+    }
+
+    .Arlista .Arlista-Arak .Arsor .Bal{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 65%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .Arlista .Arlista-Arak .Arsor .Jobb {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 35%;
+        height: auto;
+        font-size: 20px;
+    }
+
+    .Arlista .Kiegeszites{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+        margin-top: 50px;
+        padding: 10px 0px;
+    }
+
+    .Arlista .Kiegeszites .Elso{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+    }
+
+    .Arlista .Kiegeszites .Elso p{
+        font-size: 25px;
+    }
+
+    .Arlista .Kiegeszites .Masodik{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .Arlista .Kiegeszites .Masodik p{
+        font-size: 15px;
+    }
+
+    .Arlista .Kiegeszites .Harmadik{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+        margin: 50px 0px;
+    }
+
+    .Arlista .Kiegeszites .Harmadik p:first-child{
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 30px;
+    }
+
+    .Arlista .Kiegeszites .Harmadik li{
+        font-size: 20px;
+        margin-left: 15px;
+    }
+}

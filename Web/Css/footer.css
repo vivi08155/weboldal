@@ -1,0 +1,428 @@
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 250px;
+    background-color: var(--Asztal_LablecHatterSzin);
+}
+
+footer .CompanyDetails {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+footer .CompanyDetails .Title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 25px;
+    padding-top: 0 !important;
+}
+
+footer .CompanyDetails .Title p {
+    font-size: 42px;
+    color: var(--Asztal_LablecBetuSzin);
+}
+
+footer .CompanyDetails .Detail {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+footer .CompanyDetails .Detail a {
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    margin: 10px 0;
+    color: var(--Asztal_LablecBetuSzin);
+}
+
+footer .CompanyDetails .Detail a i {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+}
+
+footer .ContactDetails {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+footer .ContactDetails .Detail {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+footer .ContactDetails .Detail p {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 10px 0;
+    color: var(--Asztal_LablecBetuSzin);
+}
+
+footer .ContactDetails .Detail i {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: auto;
+    font-size: 24px;
+    color: var(--Asztal_LablecBetuSzin);
+}
+
+footer .ContactDetails .Detail:last-child p {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+    color: var(--Asztal_LablecBetuSzin);
+}
+
+.Copyright {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    background-color: #FA8128;
+}
+
+.Copyright p {
+    text-align: center;
+    font-size: 18px;
+    color: var(--Asztal_LablecBetuSzin);
+}
+
+
+@media only screen and (max-width: 499px) {
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        background-color: var(--Asztal_LablecHatterSzin);
+    }
+
+    footer .CompanyDetails {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .CompanyDetails .Title {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 75px;
+        margin-bottom: 0px;
+    }
+
+    footer .CompanyDetails .Title p {
+        font-size: 32px;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    footer .CompanyDetails .Detail {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 0;
+
+    }
+
+    footer .CompanyDetails .Detail a {
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        margin: 10px 0;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    footer .CompanyDetails .Detail a i {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: auto;
+    }
+
+    footer .ContactDetails {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+
+    footer .ContactDetails .Detail {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer .ContactDetails .Detail p {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        margin: 10px 0;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    footer .ContactDetails .Detail i {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: auto;
+        font-size: 18px;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    footer .ContactDetails .Detail:last-child p {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        margin: 10px 0;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    .Copyright {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 50px;
+        padding: 0;
+        background-color: #FA8128;
+    }
+
+    .Copyright p {
+        text-align: center;
+        font-size: 16px;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        background-color: var(--Asztal_LablecHatterSzin);
+    }
+
+    footer .CompanyDetails {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    footer .CompanyDetails .Title {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 75px;
+        margin-bottom: 0px;
+    }
+
+    footer .CompanyDetails .Title p {
+        font-size: 32px;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    footer .CompanyDetails .Detail {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+        padding-left: 0;
+
+    }
+
+    footer .CompanyDetails .Detail a {
+        text-decoration: none;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        margin: 10px 0;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    footer .CompanyDetails .Detail a i {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: auto;
+    }
+
+    footer .ContactDetails {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        padding-bottom: 50px;
+    }
+
+    footer .ContactDetails .Detail {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+    }
+
+    footer .ContactDetails .Detail p {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        margin: 10px 0;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    footer .ContactDetails .Detail i {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: auto;
+        font-size: 18px;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    footer .ContactDetails .Detail:last-child p {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        margin: 10px 0;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+
+    .Copyright {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 50px;
+        padding: 0;
+        background-color: #FA8128;
+    }
+
+    .Copyright p {
+        text-align: center;
+        font-size: 16px;
+        color: var(--Asztal_LablecBetuSzin);
+    }
+}

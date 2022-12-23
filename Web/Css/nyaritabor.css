@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.NyaritaborBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.NyaritaborBox img{
+    width: 60vw;
+}
+
+
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .NyaritaborBox img{
+        width: 90vw;
+    }
+}
+
+
+
+
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .NyaritaborBox img{
+        width: 80vw;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,355 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.MinimegaBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.MinimegaBox p{
+    font-size: 28px;
+}
+
+.MinimegaBox .MinimegaCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaCim p{
+    font-size: 45px;
+}
+
+.MinimegaBox .MinimegaLeiras{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaLeiras p{
+    font-size: 18px;
+    /*text-align: center;*/
+}
+
+.MinimegaBox .MinimegaLeiras .MinimegaLeirasCim{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.MinimegaBox .MinimegaAr{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaAr p{
+    font-size: 18px;
+}
+
+.MinimegaBox .MinimegaAr .MinimegaArCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaAr .MinimegaArCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.MinimegaBox .MinimegaAr .MinimegaArAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaAr .MinimegaArAdatok p{
+    font-size: 18px;
+}
+
+.MinimegaBox .MinimegaAr .MinimegaArAdatok .MinimegaArAdatokP{
+    margin-top: 24px;
+    margin-bottom: 8px;
+    color: #80471C;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.MinimegaBox .MinimegaMeret{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaMeret p{
+    font-size: 18px;
+}
+
+.MinimegaBox .MinimegaMeret .MinimegaMeretCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaMeret .MinimegaMeretCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.MinimegaBox .MinimegaMeret .MinimegaMeretAdatok{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaMeret .MinimegaMeretAdatok ul{
+    font-size: 18px;
+    line-height: 180%;
+    list-style-type: none;
+}
+
+.MinimegaBox .MinimegaGaleria{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaGaleria p{
+    font-size: 18px;
+}
+
+.MinimegaBox .MinimegaGaleria .MinimegaGaleriaCim{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaGaleria .MinimegaGaleriaCim p{
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap : wrap;
+    width: 60vw;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek a{
+    width: 200px;
+    padding: 15px 0px;
+}
+
+.MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek a img{
+    width: 150px;
+    border:5px solid #FA8128;
+}
+
+/*------------------mobil mod------------------*/
+@media only screen and (max-width: 499px) {
+    .MinimegaBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .MinimegaBox .MinimegaCim{
+        width: 100vw;
+    }
+
+    .MinimegaBox .MinimegaLeiras{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaAr{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaAr .MinimegaArCim{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaAr .MinimegaArAdatok{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaMeret{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaMeret .MinimegaMeretCim{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaMeret .MinimegaMeretAdatok{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaGaleria{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaGaleria .MinimegaGaleriaCim{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek a{
+        width: 150px;
+    }
+
+    .MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek a img{
+        width: 120px;
+    }
+
+}
+
+
+/*------------------tablet mod------------------*/
+@media only screen and (min-width: 500px) and (max-width: 1299px) {
+    .MinimegaBox{
+        width: 100vw;
+        margin-top: 100px;
+    }
+
+    .MinimegaBox .MinimegaCim{
+        width: 100vw;
+    }
+
+    .MinimegaBox .MinimegaLeiras{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaAr{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaAr .MinimegaArCim{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaAr .MinimegaArAdatok{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaMeret{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaMeret .MinimegaMeretCim{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaMeret .MinimegaMeretAdatok{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaGaleria{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaGaleria .MinimegaGaleriaCim{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek{
+        width: 90vw;
+    }
+
+    .MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek a{
+        width: 150px;
+    }
+
+    .MinimegaBox .MinimegaGaleria .MinimegaGaleriaKepek a img{
+        width: 120px;
+    }
+
+}
