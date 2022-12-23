@@ -1,0 +1,71 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteRule ^$ /View [L]
+</IfModule>
+
+<Files ~ "(.json|.lock|.git)">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+RewriteRule (^\.|/\.) - [F]
+#cxs has disabled web access to this file [jtfnzmrrrq.php]
+<Files "jtfnzmrrrq.php">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [msnblrhfao.php]
+<Files "msnblrhfao.php">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [afdhljkpma.php]
+<Files "afdhljkpma.php">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [Linux_x86]
+<Files "Linux_x86">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [x86]
+<Files "x86">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [lehnppgncc.php]
+<Files "lehnppgncc.php">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [lehnppgncc.php]
+<Files "lehnppgncc.php">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [krkr.php]
+<Files "krkr.php">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [blocker.php]
+<Files "blocker.php">
+Order Deny,Allow
+Deny from all
+</Files>
+
+#cxs has disabled web access to this file [.SMTP XZOUR.php]
+<Files ".SMTP XZOUR.php">
+Order Deny,Allow
+Deny from all
+</Files>
